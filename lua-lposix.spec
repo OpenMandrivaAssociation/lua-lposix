@@ -16,6 +16,7 @@ Patch1:		lposix-build-5.1.patch
 # 2008/07 (see http://www.mail-archive.com/debian-glibc@lists.debian.org/msg34448.html )
 Patch2:		lposix-clktck.patch
 BuildRoot:	%_tmppath/%{name}-buildroot
+BuildRequires:	lua-devel
 Requires:	lua
 # Relics from previous crack-addled packaging of this simple plugin
 # as if it were a shared library. Debian goes the whole hog and
