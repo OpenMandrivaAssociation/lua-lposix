@@ -4,7 +4,7 @@
 Summary:	A POSIX library for the Lua programming language
 Name:		lua-lposix
 Version:	1.0
-Release:	%{mkrel 3}
+Release:	%{mkrel 4}
 License:	Public Domain
 Group:		Development/Other
 URL:		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
