@@ -73,3 +73,16 @@ install -m0644 tree.lua %{buildroot}/%{_datadir}/lua/%{lua_version}
 %files devel
 %defattr(-,root,root)
 %{_libdir}/lua/%{lua_version}/*.a
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.0-4mdv2010.0
++ Revision: 429882
+- rebuild
+
+* Thu Jul 17 2008 Adam Williamson <awilliamson@mandriva.org> 1.0-3mdv2009.0
++ Revision: 237784
+- buildrequires lua-devel
+- import lua-lposix
+
+
