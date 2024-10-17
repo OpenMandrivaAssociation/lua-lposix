@@ -7,7 +7,7 @@ Version:	1.0
 Release:	%{mkrel 4}
 License:	Public Domain
 Group:		Development/Other
-URL:		http://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
+URL:		https://www.tecgraf.puc-rio.br/~lhf/ftp/lua/
 Source0:	lposix.tar.bz2
 Patch0:		luaposix.patch
 # From upstream reference (by Funda)
